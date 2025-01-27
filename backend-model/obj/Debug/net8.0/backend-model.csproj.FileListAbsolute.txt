@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\backend\backend-model\bin\Debug\net8.0\backend-model.deps.json
+C:\Users\User\source\repos\backend\backend-model\bin\Debug\net8.0\backend-model.dll
+C:\Users\User\source\repos\backend\backend-model\bin\Debug\net8.0\backend-model.pdb
+C:\Users\User\source\repos\backend\backend-model\obj\Debug\net8.0\backend-model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\backend\backend-model\obj\Debug\net8.0\backend-model.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\backend\backend-model\obj\Debug\net8.0\backend-model.AssemblyInfo.cs
+C:\Users\User\source\repos\backend\backend-model\obj\Debug\net8.0\backend-model.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\backend\backend-model\obj\Debug\net8.0\backend-model.dll
+C:\Users\User\source\repos\backend\backend-model\obj\Debug\net8.0\refint\backend-model.dll
+C:\Users\User\source\repos\backend\backend-model\obj\Debug\net8.0\backend-model.pdb
+C:\Users\User\source\repos\backend\backend-model\obj\Debug\net8.0\ref\backend-model.dll

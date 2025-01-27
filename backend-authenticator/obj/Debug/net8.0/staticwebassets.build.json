@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "NS3L0t2uTF8Xjdg2Y8WBqLMkZcE11eeOMj4cuQ7SiZY=",
+  "Source": "backend-authenticator",
+  "BasePath": "_content/backend-authenticator",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "Proyectop",
+    "Projects": [
+      {
+        "Path": "backend-tournament\\backend-tournament.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "backend-authenticator\\backend-authenticator.csproj",
+        "Action": "Start",
+        "DebugTarget": "http"
+      },
+      {
+        "Path": "Notifications\\Notifications.csproj",
+        "Action": "Start",
+        "DebugTarget": "Notifications"
+      }
+    ]
+  }
+]

@@ -1,0 +1,569 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|c:\\users\\user\\source\\repos\\backend\\backend-tournament\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|solutionrelative:backend-tournament\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4317463-4DC2-42F0-912E-F6C236AAF954}|backend-model\\backend-model.csproj|c:\\users\\user\\source\\repos\\backend\\backend-model\\torneos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4317463-4DC2-42F0-912E-F6C236AAF954}|backend-model\\backend-model.csproj|solutionrelative:backend-model\\torneos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4317463-4DC2-42F0-912E-F6C236AAF954}|backend-model\\backend-model.csproj|c:\\users\\user\\source\\repos\\backend\\backend-model\\equipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4317463-4DC2-42F0-912E-F6C236AAF954}|backend-model\\backend-model.csproj|solutionrelative:backend-model\\equipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Migrations\\20250127085046_fixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend-tournament\\Migrations\\20250127085046_fixed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|c:\\users\\user\\source\\repos\\backend\\backend-tournament\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|solutionrelative:backend-tournament\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|c:\\users\\user\\source\\repos\\backend\\backend-tournament\\repositories\\equiposrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|solutionrelative:backend-tournament\\repositories\\equiposrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|c:\\users\\user\\source\\repos\\backend\\backend-tournament\\repositories\\interfaces\\iequipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|solutionrelative:backend-tournament\\repositories\\interfaces\\iequipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\Migrations\\20250127071550_Arreglado2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend-authenticator\\Migrations\\20250127071550_Arreglado2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Migrations\\20250127070823_Arreglado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:backend-tournament\\Migrations\\20250127070823_Arreglado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|c:\\users\\user\\source\\repos\\backend\\backend-tournament\\controllers\\jugadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|solutionrelative:backend-tournament\\controllers\\jugadorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|c:\\users\\user\\source\\repos\\backend\\backend-tournament\\repositories\\jugadoresrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|solutionrelative:backend-tournament\\repositories\\jugadoresrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|c:\\users\\user\\source\\repos\\backend\\backend-tournament\\repositories\\interfaces\\ijugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|solutionrelative:backend-tournament\\repositories\\interfaces\\ijugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|c:\\users\\user\\source\\repos\\backend\\backend-tournament\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|solutionrelative:backend-tournament\\controllers\\equiposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|c:\\users\\user\\source\\repos\\backend\\backend-tournament\\controllers\\torneoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|solutionrelative:backend-tournament\\controllers\\torneoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|c:\\users\\user\\source\\repos\\backend\\backend-tournament\\repositories\\torneosrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|solutionrelative:backend-tournament\\repositories\\torneosrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|c:\\users\\user\\source\\repos\\backend\\backend-tournament\\repositories\\interfaces\\itorneos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|solutionrelative:backend-tournament\\repositories\\interfaces\\itorneos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4317463-4DC2-42F0-912E-F6C236AAF954}|backend-model\\backend-model.csproj|c:\\users\\user\\source\\repos\\backend\\backend-model\\jugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4317463-4DC2-42F0-912E-F6C236AAF954}|backend-model\\backend-model.csproj|solutionrelative:backend-model\\jugadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|c:\\users\\user\\source\\repos\\backend\\backend-tournament\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|solutionrelative:backend-tournament\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4F5F57-0663-406E-8B14-2C8683B7DC18}|backend-authenticator\\backend-authenticator.csproj|c:\\users\\user\\source\\repos\\backend\\backend-authenticator\\repositories\\usuariosrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4F5F57-0663-406E-8B14-2C8683B7DC18}|backend-authenticator\\backend-authenticator.csproj|solutionrelative:backend-authenticator\\repositories\\usuariosrepositories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4F5F57-0663-406E-8B14-2C8683B7DC18}|backend-authenticator\\backend-authenticator.csproj|c:\\users\\user\\source\\repos\\backend\\backend-authenticator\\repositories\\interfaces\\iusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4F5F57-0663-406E-8B14-2C8683B7DC18}|backend-authenticator\\backend-authenticator.csproj|solutionrelative:backend-authenticator\\repositories\\interfaces\\iusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4F5F57-0663-406E-8B14-2C8683B7DC18}|backend-authenticator\\backend-authenticator.csproj|c:\\users\\user\\source\\repos\\backend\\backend-authenticator\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4F5F57-0663-406E-8B14-2C8683B7DC18}|backend-authenticator\\backend-authenticator.csproj|solutionrelative:backend-authenticator\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4317463-4DC2-42F0-912E-F6C236AAF954}|backend-model\\backend-model.csproj|c:\\users\\user\\source\\repos\\backend\\backend-model\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4317463-4DC2-42F0-912E-F6C236AAF954}|backend-model\\backend-model.csproj|solutionrelative:backend-model\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4F5F57-0663-406E-8B14-2C8683B7DC18}|backend-authenticator\\backend-authenticator.csproj|c:\\users\\user\\source\\repos\\backend\\backend-authenticator\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4F5F57-0663-406E-8B14-2C8683B7DC18}|backend-authenticator\\backend-authenticator.csproj|solutionrelative:backend-authenticator\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D25F8A6A-6738-41E6-9699-8E87FA303D22}|Notifications\\Notifications.csproj|c:\\users\\user\\source\\repos\\backend\\notifications\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D25F8A6A-6738-41E6-9699-8E87FA303D22}|Notifications\\Notifications.csproj|solutionrelative:notifications\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D25F8A6A-6738-41E6-9699-8E87FA303D22}|Notifications\\Notifications.csproj|c:\\users\\user\\source\\repos\\backend\\notifications\\producer\\producer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D25F8A6A-6738-41E6-9699-8E87FA303D22}|Notifications\\Notifications.csproj|solutionrelative:notifications\\producer\\producer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D25F8A6A-6738-41E6-9699-8E87FA303D22}|Notifications\\Notifications.csproj|c:\\users\\user\\source\\repos\\backend\\notifications\\consumer\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D25F8A6A-6738-41E6-9699-8E87FA303D22}|Notifications\\Notifications.csproj|solutionrelative:notifications\\consumer\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D25F8A6A-6738-41E6-9699-8E87FA303D22}|Notifications\\Notifications.csproj|c:\\users\\user\\source\\repos\\backend\\notifications\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D25F8A6A-6738-41E6-9699-8E87FA303D22}|Notifications\\Notifications.csproj|solutionrelative:notifications\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D25F8A6A-6738-41E6-9699-8E87FA303D22}|Notifications\\Notifications.csproj|c:\\users\\user\\source\\repos\\backend\\notifications\\notifications.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D25F8A6A-6738-41E6-9699-8E87FA303D22}|Notifications\\Notifications.csproj|solutionrelative:notifications\\notifications.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4F5F57-0663-406E-8B14-2C8683B7DC18}|backend-authenticator\\backend-authenticator.csproj|c:\\users\\user\\source\\repos\\backend\\backend-authenticator\\backend-authenticator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4A4F5F57-0663-406E-8B14-2C8683B7DC18}|backend-authenticator\\backend-authenticator.csproj|solutionrelative:backend-authenticator\\backend-authenticator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4F5F57-0663-406E-8B14-2C8683B7DC18}|backend-authenticator\\backend-authenticator.csproj|c:\\users\\user\\source\\repos\\backend\\backend-authenticator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A4F5F57-0663-406E-8B14-2C8683B7DC18}|backend-authenticator\\backend-authenticator.csproj|solutionrelative:backend-authenticator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A4F5F57-0663-406E-8B14-2C8683B7DC18}|backend-authenticator\\backend-authenticator.csproj|c:\\users\\user\\source\\repos\\backend\\backend-authenticator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A4F5F57-0663-406E-8B14-2C8683B7DC18}|backend-authenticator\\backend-authenticator.csproj|solutionrelative:backend-authenticator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|c:\\users\\user\\source\\repos\\backend\\backend-tournament\\backend-tournament.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5ACCC85C-A883-486C-A18E-181118CEB56E}|backend-tournament\\backend-tournament.csproj|solutionrelative:backend-tournament\\backend-tournament.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 138,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 23,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250127085046_fixed.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Migrations\\20250127085046_fixed.cs",
+              "RelativeDocumentMoniker": "backend-tournament\\Migrations\\20250127085046_fixed.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Migrations\\20250127085046_fixed.cs",
+              "RelativeToolTip": "backend-tournament\\Migrations\\20250127085046_fixed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T08:50:46.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250127071550_Arreglado2.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\Migrations\\20250127071550_Arreglado2.cs",
+              "RelativeDocumentMoniker": "backend-authenticator\\Migrations\\20250127071550_Arreglado2.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\Migrations\\20250127071550_Arreglado2.cs",
+              "RelativeToolTip": "backend-authenticator\\Migrations\\20250127071550_Arreglado2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T07:15:50.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250127070823_Arreglado.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Migrations\\20250127070823_Arreglado.cs",
+              "RelativeDocumentMoniker": "backend-tournament\\Migrations\\20250127070823_Arreglado.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Migrations\\20250127070823_Arreglado.cs",
+              "RelativeToolTip": "backend-tournament\\Migrations\\20250127070823_Arreglado.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T07:08:24.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Notifications.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\Notifications\\Notifications.csproj",
+              "RelativeDocumentMoniker": "Notifications\\Notifications.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\Notifications\\Notifications.csproj",
+              "RelativeToolTip": "Notifications\\Notifications.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-21T16:14:43.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Consumer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\Notifications\\Consumer\\Consumer.cs",
+              "RelativeDocumentMoniker": "Notifications\\Consumer\\Consumer.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\Notifications\\Consumer\\Consumer.cs",
+              "RelativeToolTip": "Notifications\\Consumer\\Consumer.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:12:01.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Producer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\Notifications\\Producer\\Producer.cs",
+              "RelativeDocumentMoniker": "Notifications\\Producer\\Producer.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\Notifications\\Producer\\Producer.cs",
+              "RelativeToolTip": "Notifications\\Producer\\Producer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:10:12.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\Notifications\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Notifications\\Services\\NotificationService.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\Notifications\\Services\\NotificationService.cs",
+              "RelativeToolTip": "Notifications\\Services\\NotificationService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:09:19.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\Notifications\\Program.cs",
+              "RelativeDocumentMoniker": "Notifications\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\Notifications\\Program.cs",
+              "RelativeToolTip": "Notifications\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T16:04:45.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\Program.cs",
+              "RelativeDocumentMoniker": "backend-authenticator\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\Program.cs",
+              "RelativeToolTip": "backend-authenticator\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:58:29.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\appsettings.json",
+              "RelativeDocumentMoniker": "backend-authenticator\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\appsettings.json",
+              "RelativeToolTip": "backend-authenticator\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-21T15:58:18.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "backend-authenticator\\Controllers\\UsuariosController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "backend-authenticator\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAcwDoAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:57:43.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "backend-authenticator.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\backend-authenticator.csproj",
+              "RelativeDocumentMoniker": "backend-authenticator\\backend-authenticator.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\backend-authenticator.csproj",
+              "RelativeToolTip": "backend-authenticator\\backend-authenticator.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-21T15:54:17.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "backend-authenticator\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "backend-authenticator\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:53:15.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UsuariosRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\Repositories\\UsuariosRepositories.cs",
+              "RelativeDocumentMoniker": "backend-authenticator\\Repositories\\UsuariosRepositories.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\Repositories\\UsuariosRepositories.cs",
+              "RelativeToolTip": "backend-authenticator\\Repositories\\UsuariosRepositories.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:52:14.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\Repositories\\Interfaces\\IUsuarios.cs",
+              "RelativeDocumentMoniker": "backend-authenticator\\Repositories\\Interfaces\\IUsuarios.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-authenticator\\Repositories\\Interfaces\\IUsuarios.cs",
+              "RelativeToolTip": "backend-authenticator\\Repositories\\Interfaces\\IUsuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:50:35.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TorneosController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Controllers\\TorneosController.cs",
+              "RelativeDocumentMoniker": "backend-tournament\\Controllers\\TorneosController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Controllers\\TorneosController.cs",
+              "RelativeToolTip": "backend-tournament\\Controllers\\TorneosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:45:57.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EquiposController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Controllers\\EquiposController.cs",
+              "RelativeDocumentMoniker": "backend-tournament\\Controllers\\EquiposController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Controllers\\EquiposController.cs",
+              "RelativeToolTip": "backend-tournament\\Controllers\\EquiposController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwDAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:45:23.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "JugadoresController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Controllers\\JugadoresController.cs",
+              "RelativeDocumentMoniker": "backend-tournament\\Controllers\\JugadoresController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Controllers\\JugadoresController.cs",
+              "RelativeToolTip": "backend-tournament\\Controllers\\JugadoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:44:11.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\appsettings.json",
+              "RelativeDocumentMoniker": "backend-tournament\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\appsettings.json",
+              "RelativeToolTip": "backend-tournament\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-21T15:28:50.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Program.cs",
+              "RelativeDocumentMoniker": "backend-tournament\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Program.cs",
+              "RelativeToolTip": "backend-tournament\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:24:25.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "backend-tournament\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "backend-tournament\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:21:02.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TorneosRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Repositories\\TorneosRepositories.cs",
+              "RelativeDocumentMoniker": "backend-tournament\\Repositories\\TorneosRepositories.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Repositories\\TorneosRepositories.cs",
+              "RelativeToolTip": "backend-tournament\\Repositories\\TorneosRepositories.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAkwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:19:15.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EquiposRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Repositories\\EquiposRepositories.cs",
+              "RelativeDocumentMoniker": "backend-tournament\\Repositories\\EquiposRepositories.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Repositories\\EquiposRepositories.cs",
+              "RelativeToolTip": "backend-tournament\\Repositories\\EquiposRepositories.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:15:08.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JugadoresRepositories.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Repositories\\JugadoresRepositories.cs",
+              "RelativeDocumentMoniker": "backend-tournament\\Repositories\\JugadoresRepositories.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Repositories\\JugadoresRepositories.cs",
+              "RelativeToolTip": "backend-tournament\\Repositories\\JugadoresRepositories.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:14:42.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "backend-tournament.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\backend-tournament.csproj",
+              "RelativeDocumentMoniker": "backend-tournament\\backend-tournament.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\backend-tournament.csproj",
+              "RelativeToolTip": "backend-tournament\\backend-tournament.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-21T15:08:06.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ITorneos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Repositories\\Interfaces\\ITorneos.cs",
+              "RelativeDocumentMoniker": "backend-tournament\\Repositories\\Interfaces\\ITorneos.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Repositories\\Interfaces\\ITorneos.cs",
+              "RelativeToolTip": "backend-tournament\\Repositories\\Interfaces\\ITorneos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:04:27.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEquipos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Repositories\\Interfaces\\IEquipos.cs",
+              "RelativeDocumentMoniker": "backend-tournament\\Repositories\\Interfaces\\IEquipos.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Repositories\\Interfaces\\IEquipos.cs",
+              "RelativeToolTip": "backend-tournament\\Repositories\\Interfaces\\IEquipos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:04:10.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IJugadores.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Repositories\\Interfaces\\IJugadores.cs",
+              "RelativeDocumentMoniker": "backend-tournament\\Repositories\\Interfaces\\IJugadores.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-tournament\\Repositories\\Interfaces\\IJugadores.cs",
+              "RelativeToolTip": "backend-tournament\\Repositories\\Interfaces\\IJugadores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T15:03:47.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Torneos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-model\\Torneos.cs",
+              "RelativeDocumentMoniker": "backend-model\\Torneos.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-model\\Torneos.cs",
+              "RelativeToolTip": "backend-model\\Torneos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:57:41.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Equipos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-model\\Equipos.cs",
+              "RelativeDocumentMoniker": "backend-model\\Equipos.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-model\\Equipos.cs",
+              "RelativeToolTip": "backend-model\\Equipos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:57:25.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Jugadores.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-model\\Jugadores.cs",
+              "RelativeDocumentMoniker": "backend-model\\Jugadores.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-model\\Jugadores.cs",
+              "RelativeToolTip": "backend-model\\Jugadores.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:57:14.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\backend\\backend-model\\Usuarios.cs",
+              "RelativeDocumentMoniker": "backend-model\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\backend\\backend-model\\Usuarios.cs",
+              "RelativeToolTip": "backend-model\\Usuarios.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T14:54:56.557Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
