@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("backend-tournament")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4fd5cc565287780b0dea8d839ad57ff3d6e03264")]
 [assembly: System.Reflection.AssemblyProductAttribute("backend-tournament")]
 [assembly: System.Reflection.AssemblyTitleAttribute("backend-tournament")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -455,9 +455,6 @@
             "type": "integer",
             "format": "int32",
             "nullable": true
-          },
-          "equipo": {
-            "$ref": "#/components/schemas/Equipos"
           }
         },
         "additionalProperties": false

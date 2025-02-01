@@ -1,13 +1,11 @@
 ﻿using Notifications.Services;
 using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Mail;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
-using RabbitMQ.Client.Events;
 
 namespace Notifications
 {
@@ -23,9 +21,11 @@ namespace Notifications
         public void Start(string rabbitMqHost, string queueName)
         {
             var factory = new ConnectionFactory() { HostName = rabbitMqHost };
+
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
+                // Declarar la cola
                 channel.QueueDeclare(queue: queueName,
                                      durable: true,
                                      exclusive: false,
@@ -35,17 +35,21 @@ namespace Notifications
                 Console.WriteLine($"Esperando mensajes en la cola '{queueName}'...");
 
                 var consumer = new EventingBasicConsumer(channel);
+
                 consumer.Received += async (model, ea) =>
                 {
+                    // Leer el mensaje recibido
                     var body = ea.Body.ToArray();
                     var message = Encoding.UTF8.GetString(body);
 
                     Console.WriteLine($"Mensaje recibido: {message}");
 
-                    // Lógica para enviar el correo
-                    await EnviarCorreosAsync("Mensaje de RabbitMQ", message);
+                    // Enviar correos con el mensaje como cuerpo
+                    string asunto = "Notificación de Torneos";
+                    await EnviarCorreosAsync(asunto, message);
                 };
 
+                // Iniciar el consumo de la cola
                 channel.BasicConsume(queue: queueName,
                                      autoAck: true,
                                      consumer: consumer);
@@ -62,15 +66,18 @@ namespace Notifications
 
             try
             {
+                // Obtener los usuarios a los que se enviarán los correos
                 var destinatarios = await _notificationService.ObtenerUsuariosAsync();
 
-                var smtpClient = new SmtpClient("smtp.gmail.com") // Cambia esto según tu proveedor de correo
+                // Configurar el cliente SMTP
+                var smtpClient = new SmtpClient("smtp.gmail.com")
                 {
                     Port = 587,
                     Credentials = new NetworkCredential(remitente, contrasena),
                     EnableSsl = true,
                 };
 
+                // Enviar un correo a cada destinatario
                 foreach (var destinatario in destinatarios)
                 {
                     var mailMessage = new MailMessage
@@ -83,7 +90,7 @@ namespace Notifications
 
                     mailMessage.To.Add(destinatario.Gmail);
 
-                    smtpClient.Send(mailMessage);
+                    await smtpClient.SendMailAsync(mailMessage);
 
                     Console.WriteLine($"Correo enviado exitosamente a {destinatario.Gmail}.");
                 }
@@ -95,4 +102,3 @@ namespace Notifications
         }
     }
 }
-

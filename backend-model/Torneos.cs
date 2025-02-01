@@ -8,20 +8,20 @@ namespace backend_model
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; } // Clave primaria
+        public int Id { get; set; }
 
         [Required]
         [MaxLength(100)]
-        public string NombreTorneo { get; set; } // Nombre del torneo
+        public string NombreTorneo { get; set; }
 
         [Required]
-        public DateTime FechaInicio { get; set; } // Fecha de inicio
+        public DateTime FechaInicio { get; set; }
 
         [Required]
-        public DateTime FechaFin { get; set; } // Fecha de fin
+        public DateTime FechaFin { get; set; }
 
         // Relación con Equipos
-        [JsonIgnore] // Ignorar la propiedad Equipos para evitar ciclos
-        public ICollection<Equipos> Equipos { get; set; } // Lista de equipos asociados
+        [JsonIgnore] // Evitar ciclos de referencia
+        public ICollection<Equipos>? Equipos { get; set; } = new List<Equipos>(); // Hacerlo opcional
     }
 }

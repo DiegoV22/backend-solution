@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text.Json.Serialization;
 
 namespace backend_model
 {
@@ -28,9 +29,12 @@ namespace backend_model
         [MaxLength(10)]
         public string Lateralidad { get; set; }
 
-        // Relación con Equipo
         public int? EquipoId { get; set; } // Clave foránea opcional
+
         [ForeignKey("EquipoId")]
-        public Equipos Equipo { get; set; } // Propiedad de navegación hacia Equipos
+        [JsonIgnore] // ✅ Evita que el backend espere `Equipo` en el JSON de entrada
+        public Equipos? Equipo { get; set; }
+
+
     }
 }

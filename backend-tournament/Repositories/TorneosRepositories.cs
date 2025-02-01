@@ -1,6 +1,7 @@
 ﻿using backend_model;
 using backend_tournament.Data;
 using backend_tournament.Repositories.Interfaces;
+using backend_tournament.Services;
 using Microsoft.EntityFrameworkCore;
 
 namespace backend_tournament.Repositories
@@ -32,7 +33,15 @@ namespace backend_tournament.Repositories
         {
             await _context.Torneos.AddAsync(torneo);
             await _context.SaveChangesAsync();
+
+            // Publicar mensaje en RabbitMQ
+            using (var publisher = new MessagePublisher("localhost", "emailQueue"))
+            {
+                string message = $"Se ha creado un nuevo torneo: {torneo.NombreTorneo}";
+                publisher.PublishMessage(message);
+            }
         }
+
 
         public async Task UpdateAsync(int id, Torneos torneo)
         {

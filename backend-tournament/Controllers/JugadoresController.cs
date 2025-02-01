@@ -33,12 +33,17 @@ namespace backend_tournament.Controllers
         [HttpPost]
         public async Task<IActionResult> Add([FromBody] Jugadores jugador)
         {
-            if (jugador.EquipoId == null)
-                return BadRequest("El jugador debe estar asociado a un equipo.");
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            if (jugador.EquipoId == null || jugador.EquipoId <= 0)
+                return BadRequest("El jugador debe estar asociado a un equipo válido.");
 
             await _jugadoresRepository.AddAsync(jugador);
             return CreatedAtAction(nameof(GetById), new { id = jugador.Id }, jugador);
         }
+
+
 
         [HttpPut("{id}")]
         public async Task<IActionResult> Update(int id, [FromBody] Jugadores jugador)
